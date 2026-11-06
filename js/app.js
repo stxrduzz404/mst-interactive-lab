@@ -288,7 +288,7 @@ function renderCode(step) {
 
 function render() {
   const step = state.steps[state.index];
-  const targetEdges = Math.max(0, state.graph.nodes.length - (step.components ?? 1));
+  const targetEdges = state.steps.at(-1).selected.length;
   elements.statEdges.textContent = `${step.selected.length} / ${targetEdges}`;
   elements.statTotal.textContent = String(step.total);
   elements.statAuxLabel.textContent = state.algorithm === "kruskal" ? "成環淘汰" : "舊票淘汰";
