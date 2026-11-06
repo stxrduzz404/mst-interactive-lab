@@ -2,6 +2,10 @@
 
 以 Kruskal 與 Prim 演算法為主題的最小生成樹（Minimum Spanning Tree, MST）互動教學網站。使用者可以逐步播放演算法，直接觀察邊的選取、成環淘汰、併查集、優先佇列、目前總重與對應虛擬碼。
 
+**線上網站：** [https://stxrduzz404.github.io/mst-interactive-lab/](https://stxrduzz404.github.io/mst-interactive-lab/)
+
+**GitHub 專案：** [https://github.com/stxrduzz404/mst-interactive-lab](https://github.com/stxrduzz404/mst-interactive-lab)
+
 ## 網站功能
 
 - Kruskal 逐步演示：排序、`find`、成環判斷、`union`、收邊與完成條件。
